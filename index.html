@@ -6,14 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="theme-color" content="#07090d">
 
-  <title>Morning jog or naw? </title>
+  <title>Morning jog or naw?😊</title>
 
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
       -webkit-tap-highlight-color: transparent;
     }
 
@@ -25,8 +26,17 @@
 
     body {
       background:
-        radial-gradient(circle at 50% -10%, rgba(34,197,94,.10), transparent 38%),
-        linear-gradient(180deg, #07090d 0%, #0b0f15 100%);
+        radial-gradient(
+          circle at 50% -10%,
+          rgba(34,197,94,.10),
+          transparent 38%
+        ),
+        linear-gradient(
+          180deg,
+          #07090d 0%,
+          #0b0f15 100%
+        );
+
       color: #fff;
       padding: 18px 12px 24px;
       overflow-x: hidden;
@@ -156,17 +166,11 @@
       text-decoration: none;
       color: #f8fafc;
 
-      background: linear-gradient(
-        180deg,
-        #1b222b 0%,
-        #141920 100%
-      );
-
-      border: 1px solid rgba(255,255,255,.13);
+      background: #151a22;
+      border: 1px solid rgba(255,255,255,.08);
 
       box-shadow:
-        inset 0 1px 0 rgba(255,255,255,.025),
-        0 8px 20px rgba(0,0,0,.18);
+        inset 0 1px 0 rgba(255,255,255,.025);
 
       transition:
         transform .18s ease,
@@ -180,8 +184,18 @@
 
     .link:hover {
       transform: translateY(-1px);
-      border-color: rgba(255,255,255,.20);
+      border-color: rgba(255,255,255,.15);
       background: #191f28;
+    }
+
+    .link.primary {
+      background: linear-gradient(
+        180deg,
+        #1b222b 0%,
+        #141920 100%
+      );
+
+      border-color: rgba(255,255,255,.13);
     }
 
     .icon {
@@ -192,15 +206,13 @@
       display: grid;
       place-items: center;
 
-      margin-right: 12px;
+      margin-right: 11px;
 
       background: rgba(34,197,94,.13);
       color: #4ade80;
 
       font-size: 16px;
       flex: 0 0 auto;
-
-      box-shadow: 0 0 14px rgba(34,197,94,.08);
     }
 
     .button-text {
@@ -210,14 +222,14 @@
 
     .button-title {
       display: block;
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 700;
       line-height: 1.25;
     }
 
     .button-sub {
       display: block;
-      margin-top: 3px;
+      margin-top: 2px;
       font-size: 10px;
       color: #7f8b9b;
       line-height: 1.25;
@@ -252,13 +264,13 @@
     .footer {
       text-align: center;
       margin-top: 12px;
+
       color: #4f5b6b;
       font-size: 9px;
       letter-spacing: .2px;
     }
 
     @media (max-width: 360px) {
-
       body {
         padding-left: 9px;
         padding-right: 9px;
@@ -273,11 +285,6 @@
       }
 
       .status {
-        font-size: 9px;
-      }
-
-      .meta {
-        gap: 5px;
         font-size: 9px;
       }
     }
@@ -299,13 +306,10 @@
         >
       </div>
 
-
-      <!-- CONTENT -->
       <div class="content">
 
         <!-- BRAND -->
         <div class="brand">
-
           <span class="brand-dot"></span>
 
           <span class="brand-name">
@@ -313,30 +317,24 @@
           </span>
 
           <span class="status">
-            <i></i>
-            Available
+            <i></i> Available
           </span>
-
         </div>
-
 
         <!-- TITLE -->
         <h1>
           Choose a viewing option
         </h1>
 
-
-        <!-- DESCRIPTION -->
         <p class="subtitle">
-          Click the button below to continue watching.
+          Select the option below to continue.
         </p>
 
-
-        <!-- ONE BUTTON ONLY -->
+        <!-- ONLY 1 BUTTON -->
         <div class="links-group">
 
           <a
-            class="link"
+            class="link primary"
             href="https://bioku.my/IA9vgv"
             target="_blank"
             rel="noopener noreferrer"
@@ -349,11 +347,11 @@
             <span class="button-text">
 
               <span class="button-title">
-                Watch Full Version
+                Full Version
               </span>
 
               <span class="button-sub">
-                Click here to continue
+                Recommended viewing option
               </span>
 
             </span>
@@ -366,34 +364,19 @@
 
         </div>
 
-
-        <!-- META -->
+        <!-- INFO -->
         <div class="meta">
-
-          <span>
-            HD Quality
-          </span>
-
+          <span>HD Quality</span>
           <span>•</span>
-
-          <span>
-            Mobile Friendly
-          </span>
-
+          <span>Mobile Friendly</span>
           <span>•</span>
-
-          <span>
-            Fast Loading
-          </span>
-
+          <span>Fast Loading</span>
         </div>
 
       </div>
 
     </main>
 
-
-    <!-- FOOTER -->
     <div class="footer">
       © 2026 Freaky Leaks
     </div>
@@ -401,7 +384,7 @@
   </div>
 
 
-  <!-- HISTATS -->
+  <!-- Histats -->
   <script type="text/javascript">
 
     var _Hasync = _Hasync || [];
@@ -421,13 +404,11 @@
       ''
     ]);
 
-
     (function() {
 
       var hs = document.createElement('script');
 
       hs.type = 'text/javascript';
-
       hs.async = true;
 
       hs.src = '//s10.histats.com/js15_as.js';
